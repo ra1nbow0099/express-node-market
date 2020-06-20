@@ -1,5 +1,7 @@
 
-
+.head {
+    text-align: center;
+}
 .nav-wrapper {
     padding: 0 2rem;
     background-color: #8B0000;
