@@ -18,8 +18,7 @@
             <td>{{title}}</td>
             <td>{{count}}</td>
             <td>
-                <input type="hidden" name="_csrf" value="{{csrf}}">
-                <button class="btn btn-small js-remove" data-id="{{id}}" data-csrf="{{@root.csrf}}">Delete</button>
+                <button data-csrf="{{@root.csrf}}" class="btn btn-small js-remove" data-id="{{id}}">Delete</button>
             </td>
         </tr>
     {{/each}}
