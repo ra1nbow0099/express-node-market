@@ -34,7 +34,7 @@
     "uuidv4": "^6.0.7"
   },
   "devDependencies": {
-    "handlebars": "^4.7.6",
+    "handlebars": "^4.7.7",
     "nodemon": "^2.0.2"
   }
 }
